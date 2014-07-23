@@ -1,2 +1,2 @@
 source("http://bioconductor.org/biocLite.R")
-biocLite("SCAN.UPC")
+biocLite("SCAN.UPC", ask=FALSE)
