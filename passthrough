@@ -1,12 +1,14 @@
 #!/bin/bash
 
-scriptRelativePath="$1"
+echo testing passthrough
 
-if [ "$scriptRelativePath" == "" ]
-then
-  echo No script path was specified.
-  exit 1
-fi
-
-cd /vagrant
-./$scriptRelativePath
+#scriptRelativePath="$1"
+#
+#if [ "$scriptRelativePath" == "" ]
+#then
+#  echo No script path was specified.
+#  exit 1
+#fi
+#
+#cd /vagrant
+#./$scriptRelativePath
