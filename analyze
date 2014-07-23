@@ -1,4 +1,6 @@
 #!/bin/bash
 
-# Preprocess microarray data from Gene Expression Omnibus
+# Preprocess microarray data from Gene Expression Omnibus and place it in Data/GSE15271_SCAN.txt.
 sudo Rscript --vanilla Preprocess.R
+
+# Complete other analytical steps using additional tools (not necessarily in R)...
