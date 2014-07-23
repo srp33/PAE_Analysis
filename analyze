@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Preprocess microarray data from Gene Expression Omnibus
-Rscript --vanilla Preprocess.R
+sudo Rscript --vanilla Preprocess.R
