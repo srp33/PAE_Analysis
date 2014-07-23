@@ -12,6 +12,3 @@ sudo apt-get install -y r-base
 
 # Install R software libraries required for analysis
 Rscript --vanilla InstallRLibraries.R
-
-# Create a directory that will enable files to be shared between host and guest operating systems
-mkdir -pv Data
