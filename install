@@ -11,4 +11,4 @@ sudo apt-get -y update
 sudo apt-get install -y r-base
 
 # Install R software libraries required for analysis
-Rscript --vanilla InstallRLibraries.R
+sudo Rscript --vanilla InstallRLibraries.R
